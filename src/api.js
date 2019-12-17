@@ -1,5 +1,5 @@
 import openSocket from 'socket.io-client';
-const socket = openSocket('https://dreamy-morse-d6a526.netlify.com:8000');
+const socket = openSocket('10.210.86.82:8000');
 
 function login(user){
     socket.emit('login',user)
